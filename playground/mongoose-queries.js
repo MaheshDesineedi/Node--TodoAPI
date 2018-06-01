@@ -5,7 +5,7 @@ var {User} = require('./../server/models/user.js');
 
 var id = '123';
 
-if(!ObjectID.isValid()){
+if(!ObjectID.isValid(id)){
 	console.log(`${id} not found`);
 }
 
